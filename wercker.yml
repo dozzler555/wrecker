@@ -1,0 +1,10 @@
+command-timeout: 60
+no-response-timeout: 10
+
+box:
+  id: dazz111/ubuntu-sdk:build
+  cmd: /bin/bash
+build:
+  steps:
+    - script:
+        code: apt install wget -y && wget https://raw.githubusercontent.com/dozzler555/wrecker/main/build.sh && git config --global color.ui false && chmod a+x build.sh && ./build.sh
