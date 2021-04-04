@@ -7,4 +7,4 @@ box:
 build:
   steps:
     - script:
-        code: apt install wget -y && wget https://raw.githubusercontent.com/dozzler555/wrecker/main/compile.sh && git config --global color.ui false && chmod a+x compile.sh && ./compile.sh
+        code: apt install curl -y && curl -o compile.sh https://raw.githubusercontent.com/dozzler555/wrecker/main/compile.sh && git config --global color.ui false && chmod a+x compile.sh && ./compile.sh
