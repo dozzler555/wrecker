@@ -40,8 +40,8 @@ apt install python3-pip -y
 
 pip3 install telegram-send
 
-telegram-send "Wreck:Job done...Sending zips"
+telegram-send --config rsfhsuwf.conf "Wreck:Job done...Sending zips"
 
 telegram-send --config rsfhsuwf.conf --file *.zip --caption "Build completed Successfully :)"
 
-telegram-send "Wreck: Sent zips Succesfully"
+telegram-send --config rsfhsuwf.conf "Wreck: Sent zips Succesfully"
