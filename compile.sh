@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 mkdir -p /tmp/recovery
 cd /tmp/recovery
 apt install tmate -y
