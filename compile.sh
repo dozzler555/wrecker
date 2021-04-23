@@ -14,7 +14,7 @@ repo init --depth=1 -u git://github.com/SHRP/platform_manifest_twrp_omni.git -b 
 repo sync -j$(nproc --all)
 
 
-git clone https://github.com/Dazzler555/surtwr.git -b oss device/xiaomi/surya
+git clone https://github.com/Dazzler555/surtwr.git -b shp device/xiaomi/surya
 
 rm -rf out
 
